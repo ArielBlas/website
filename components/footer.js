@@ -1,4 +1,4 @@
-import styles from '../styles/footer.module.scss';
+import styles from '../styles/Footer.module.scss';
 
 export default function Footer(){
     let d = new Date();
