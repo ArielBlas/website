@@ -1,0 +1,15 @@
+.copyContainer{
+    p{
+        color: #aea;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px){
+    .copyContainer{
+        p{
+            font-size: 0.8rem;
+        }
+    }
+}

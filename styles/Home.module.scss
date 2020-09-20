@@ -1,0 +1,352 @@
+.homeContainer{
+  height: 100vh;
+}
+
+.mainContainer{
+  padding-top: 80px;
+  color: #fff;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.articleContainer{
+  height: 100%;
+  padding-top: 80px;
+  color: #000;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleContainer{
+  width: 50%;
+
+  h2{
+    color: #fff;
+    font-size: 4rem;
+    margin: 0px;
+  }
+
+  h3{
+    color: #aea;
+    font-size: 2.5rem;
+    margin: 0px 0px 50px 0px;
+  }
+
+  .buttonLinkContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 350px;
+
+    .buttonLink{
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      height: 50px;
+      color: #fff;
+      background: #aea;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+  }
+}
+
+.olaMain{
+  position: absolute;
+  top: 88vh;
+  width: 100%;
+  height: 20vh;
+}
+
+.imgContainer{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+  img{
+    width: 80%;
+  }
+}
+
+.about_me_title{
+
+  h2{
+    text-align: center;
+    font-size: 3rem;
+    color: #aea;
+    margin: 30px 0px;
+  }
+}
+
+.about_me_content{
+  max-width: 850px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  p{
+    color: #aaa;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  a{
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    height: 50px;
+    color: #fff;
+    background: #aea;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+.service_content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .service_card{
+    width: 300px;
+
+    .cardContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #aea;
+      color: #fff;
+      border-radius: 40px;
+      margin: 20px;
+      height: 300px;
+
+      h3{
+        margin: 20px 0px;
+        font-size: 1.5rem;
+      }
+
+      .listContainer{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        width: 100%;
+        ul{
+          margin: 10px auto;
+          padding: 0px;
+          width: 40%;
+          li{
+            list-style: none;
+            text-align: center;
+          }
+        }
+      }
+      
+    }
+  }
+}
+
+.formContainer{
+  width: 100%;
+  padding: 10px 0px;
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    max-width: 500px;
+
+    .inputContainer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .textareaContainer{
+      display: flex;
+      position: relative;  
+      width: 100%;
+      margin: 20px 0px;
+
+      label{
+        padding: 6px;
+      }
+    }
+
+    .user_box{
+      position: relative;  
+    }
+
+    input[type=text],
+    input[type=email],
+    textarea{
+      font-size: 16px;
+      color: #aaa;
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1.5px solid #aea;
+      outline: none;
+      background: transparent;
+      padding: 6px 0;
+      width: 100%;
+    }
+
+    input:-webkit-autofill{
+      -webkit-box-shadow: 0 0 0px 1000px white inset;
+      -webkit-text-fill-color: #aaa !important;
+    }
+
+    input[type=submit]{
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      height: 50px;
+      color: #fff;
+      background: #aea;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+
+    textarea{
+      padding: 6px;
+      width: 100% !important;
+      height: 200px;
+      border: 1.5px solid #aea;
+    }
+
+    textarea:focus ~ label,
+    textarea:valid ~ label{
+      top: -20px;
+      left: 0;
+      color: #aea;
+      font-size: 12px;
+      padding: 0px;
+    }
+
+    input:focus ~ label,
+    input:valid ~ label,
+    .input_email ~ label{
+      top: -20px;
+      left: 0;
+      color: #aea;
+      font-size: 12px;
+    }
+
+    label{
+      position: absolute;
+      top:0;
+      left: 0;
+      padding: 6px 0;
+      font-size: 16px;
+      color: #aaa;
+      pointer-events: none;
+      transition: .5s;
+    }
+
+    
+  }
+}
+
+@media (max-width: 576px){
+ .mainContainer{
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: center;
+   padding: 0px;
+
+   .imgContainer{
+
+    img{
+      width: 100%;
+    }
+   }
+
+   .titleContainer{
+      width: 100%;
+
+      h2,h3{
+        text-align: center;
+      }
+
+      h2{
+        font-size: 2.5rem;
+      }
+
+      h3{
+        font-size: 2rem;
+        margin: 20px 0px;
+      }
+
+      .buttonLinkContainer{
+        margin: 0px auto;
+        justify-content: space-around;
+
+        a{
+          font-size: .8rem;
+        }
+      }
+    }
+  }
+
+  .articleContainer{
+    padding: 0px;
+    .about_me_title{
+
+      h2{
+        text-align: center;
+        font-size: 2rem;
+        color: #aea;
+        margin: 10px 0px;
+      }
+    }
+
+    .about_me_content{
+      p{
+        font-size: 1rem;
+        margin: 5px 0px;
+      }
+      
+      a{
+        font-size: .8rem;
+      }
+    }
+
+    .service_content{
+      .service_card{
+        .cardContainer{
+          height: auto;
+          margin: 5px;
+          padding: 10px;
+
+          h3{
+            margin: 5px 0px 10px;
+            font-size: 1rem;
+          }
+
+          .listContainer{
+            li{
+              font-size: .8rem;
+            }
+          }
+        }
+      }
+    }
+
+    .formContainer{
+      .inputContainer{
+        flex-direction: column;
+      }
+    }
+  }
+}
