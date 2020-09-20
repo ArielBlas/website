@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.scss'
 import AppLayout from '../components/AppLayout' 
 import { Component } from 'react';
-import 'isomorphic-fetch'
+import axios from 'axios'
 
 export default class Home extends Component {
   constructor() {
@@ -23,16 +23,15 @@ export default class Home extends Component {
 
   handleSubmit = evt => {
     evt.preventDefault();
-    fetch('/api/send-email', {
-      method: 'POST',
+    axios({
+      method: 'post',
+      url: '/api/send-email',
+      data: this.state,
       headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-      }, 
-      body: JSON.stringify(this.state)
-      })
-      .then(response => response.json())
-      .then(data => this.setState({
+        'Content-Type': 'application/json;charset=UTF-8',
+      }
+    })
+      .then(() => this.setState({
         user_name:'', user_mail:'', user_message:''
       }))
       .catch(error => console.log(error))

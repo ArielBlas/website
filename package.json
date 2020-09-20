@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.20.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "es6-promise": "^4.2.8",
