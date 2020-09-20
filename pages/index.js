@@ -20,9 +20,9 @@ export default class Home extends Component {
     });
   };
 
-  handleSubmit = evt => {
+  handleSubmit = async(evt) => {
     evt.preventDefault();
-    fetch('/api/send-email', {
+    await fetch('/api/send-email', {
       method: 'POST',
       headers: {
             'Accept': 'application/json',
