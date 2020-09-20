@@ -3,6 +3,7 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.scss'
 import AppLayout from '../components/AppLayout' 
 import { Component } from 'react';
+import 'isomorphic-fetch'
 
 export default class Home extends Component {
   constructor() {
@@ -20,9 +21,9 @@ export default class Home extends Component {
     });
   };
 
-  handleSubmit = async(evt) => {
+  handleSubmit = evt => {
     evt.preventDefault();
-    await fetch('/api/send-email', {
+    fetch('/api/send-email', {
       method: 'POST',
       headers: {
             'Accept': 'application/json',
