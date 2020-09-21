@@ -12,6 +12,7 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "es6-promise": "^4.2.8",
+    "googleapis": "^59.0.0",
     "isomorphic-fetch": "^2.2.1",
     "next": "9.5.3",
     "nodemailer": "^6.4.11",
