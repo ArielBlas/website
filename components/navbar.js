@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import styles from '../styles/Navbar.module.scss';
+import logo from '../public/logo.png';
 
 export default function Navbar(){
     const [menuOpen, setMenuOpen] = useState(false)
@@ -16,7 +17,7 @@ export default function Navbar(){
 	            <div className="hamburger" onClick={handleClick}></div>
                 <div className={styles.navBrand}>
                     <Link href="/">
-                        <a><img src="logo.png" className={styles.imgBrand}/></a>
+                        <a><img src={logo} className={styles.imgBrand}/></a>
                     </Link>
                 </div>
                 <div className={`${styles.navMenu} ${menuOpen ? `${styles.menuOpen}` : ''} `}>
