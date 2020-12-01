@@ -30,11 +30,11 @@ export default function Navbar(){
                     <Link href="/#servicios">
                         <a className={styles.navMenuLink} onClick={handleClick}>Servicios</a>
                     </Link>
-                    <Link href="/portafolio">
-                        <a className={styles.navMenuLink} onClick={handleClick}>Portafolio</a>
-                    </Link>
                     <Link href="/#contacto">
                         <a className={styles.navMenuLink} onClick={handleClick}>Contacto</a>
+                    </Link>
+                    <Link href="/portafolio">
+                        <a className={`${styles.navMenuLink} ${styles.portafolio}`} onClick={handleClick}>Portafolio</a>
                     </Link>
                 </div>
             </div>

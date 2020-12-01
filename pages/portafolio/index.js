@@ -18,12 +18,12 @@ export default function Portafolio({ allPostsData }){
                         {allPostsData.map(({ id, title, description, image, website, github }) => (
                             <div className={styles.card} key={id}>
                             <div className={styles.cardContent}>
-                                <Link href={`/portafolio/${id}`}>
+                                <div className={styles.cardPort}>
                                     <a>
                                         <h3>{title}</h3>
                                         <p>{description}</p>
                                     </a>
-                                </Link>                                    
+                                </div>                                    
                                 <div className={styles.imgContainer}>
                                     <img src={`/portafolio/${image}`}/>
                                     <div className={styles.iconsContainer}>
@@ -39,13 +39,7 @@ export default function Portafolio({ allPostsData }){
             </div>
             </AppLayout>
 
-            <style global jsx>{`
-                nav {
-                    background: #aea;
-                    color: #fff;
-                    border-bottom: 1px solid #eee;
-                }
-            `}</style>
+            
         </>
     )
 }

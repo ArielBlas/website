@@ -36,7 +36,7 @@
                     height: 380px;
                 }
 
-                a{
+                .cardPort{
                     height: 50%;
                     width: 100%;
                     display: flex;
@@ -48,6 +48,7 @@
                         margin: 0;
                         font-size: 2rem;
                         padding: 20px 20px 0px; 
+                        text-align: center;
                     }
     
                     p{

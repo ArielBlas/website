@@ -18,6 +18,7 @@ a {
 
 ::-webkit-scrollbar {
     width: 10px;
+   
 }
 
 ::-webkit-scrollbar-thumb{
@@ -43,7 +44,7 @@ nav{
     align-items: center;
     position: absolute;
     z-index: 2;
-    color: #fff;
+    color: #ccc;
     top: 0px;
     z-index: 1000;
 }
@@ -73,9 +74,9 @@ nav{
 }
 
 #main{
-    background-image: url('../public/fondo-main.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    //background-image: url('../public/fondo-portafolio.jpg');
+    //background-repeat: no-repeat;
+    //background-size: 100% 100%;
     position: relative;
 }
 

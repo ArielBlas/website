@@ -1,7 +1,8 @@
 ---
 title: 'P5Games'
-date: '2020-01-29'
-description: ''
+date: '2020-01-03'
+description: 'Esta página es una tienda online de videojuegos que fue hecha en equipo, tiene un panel de control donde se puede administrar los productos.'
+image: 'p5games.png'
+website: 'https://p5games.herokuapp.com/'
+github: 'https://github.com/ArielBlas/e-commerce'
 ---
-
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
