@@ -19,6 +19,7 @@ export const Basic = Template.bind({});
 Basic.args = {
   title: "Contact",
   formGroup: {
+    onSubmit: () => {},
     items: [
       { label: "Email", type: "email" },
       { label: "Password", type: "password" },

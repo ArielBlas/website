@@ -1,5 +1,7 @@
+import React from "react";
+
 export interface LinkProps {
-  children?: string;
+  children?: React.ReactNode | string;
   href: string;
   locale?: string;
   active?: boolean;

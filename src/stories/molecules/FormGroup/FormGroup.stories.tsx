@@ -18,5 +18,6 @@ Basic.args = {
     { label: "Email", type: "email" },
     { label: "Password", type: "password" },
   ],
+  onSubmit: () => {},
   buttons: [{ children: "Submit" }],
 };

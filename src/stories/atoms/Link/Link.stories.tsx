@@ -12,7 +12,7 @@ export default {
 const Template: ComponentStory<typeof Link> = (args) => {
   const { t } = useTranslation("home");
 
-  args.children = t(args.children);
+  args.children = t(args.children as string);
 
   return <Link {...args} />;
 };
