@@ -1,0 +1,34 @@
+{
+  "welcome_msg": "Welcome to my app!",
+  "home": "Home",
+  "title": "Hi! I'm Ariel Blas",
+  "description": "Full Stack Developer",
+  "contact_me": "Contact me",
+  "about_me": "About me",
+  "profile": "I'm a full stack developer who has always been interested in solving problems and since I discovered programming, I have all the tools to achieve my goals. After the high school I met Plataforma 5 a Coding Bootcamp. Today I continue in the tech industry to learn and perfect my hard and soft skills.",
+  "download_cv": "Download CV",
+  "cv": "Ariel_Blas_CV_EN.pdf",
+  "portfolio": "Portfolio",
+  "view_demo": "View Demo",
+  "view_repo": "Link to Repo",
+  "see_more": "See more",
+  "contact": "Contact",
+  "name": "Name",
+  "email": "Email",
+  "message": "Message",
+  "submit": "Submit",
+  "footer_start": "Copyright ©",
+  "footer_end": "Ariel Blas. All rights reserved",
+  "website": {
+    "name": "Website",
+    "description": "My website was developed to show you my profile and the projects I have launched."
+  },
+  "beebuk": {
+    "name": "BeeBuk",
+    "description": "An online platform that allows the connection between Writers and freelance Editorial Professionals."
+  },
+  "wal_robot": {
+    "name": "Wal Robot",
+    "description": "It is a website that displays a collection of robot characters designed and coined as NFTs."
+  }
+}

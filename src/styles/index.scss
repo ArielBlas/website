@@ -1,0 +1,17 @@
+body,
+html {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image {
+  animation: move 2s infinite alternate;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
