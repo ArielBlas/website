@@ -37,8 +37,8 @@ const Slider: React.FC<SliderProps> = (props) => {
     <div className={classNames} style={style}>
       <div style={{ width: "100%" }}>
         <ReactSlider {...settings}>
-          {items.map((item) => (
-            <div key={item.id}>
+          {items.map((item, idx) => (
+            <div key={idx}>
               <div className="p-5 flex justify-center">
                 <Image
                   src={item.src}
