@@ -19,6 +19,18 @@
   "submit": "Enviar",
   "footer_start": "Copyright ©",
   "footer_end": "Ariel Blas. Todos los derechos reservados",
+  "apple": {
+    "name": "Apple iPhone 15 Pro",
+    "description": "Es una pagina hecha a la medida de la pagina oficial que esta integrado con nuevas tecnologias, funciones y animaciones complejas que se igualan al original."
+  },
+  "ks_webplayer": {
+    "name": "Kasimu reproductor web",
+    "description": "Es un reproductor web donde podes reproducir cualquier canción o anuncio de tu elección en tu negocio."
+  },
+  "ks_controlpanel": {
+    "name": "Kasimu panel de control",
+    "description": "Es un panel de control que te permite administrar los usuarios, canciones y anuncios que quieras."
+  },
   "website": {
     "name": "Página web",
     "description": "Mi página web fue desarrollodo para mostrar mi perfil y los proyectos que he lanzado."
@@ -26,6 +38,10 @@
   "beebuk": {
     "name": "BeeBuk",
     "description": "Una plataforma online que permite la conexión entre Escritores y Profesionales Editoriales freelancers."
+  },
+  "unitstore": {
+    "name": "Unit Store",
+    "description": "Es una SaaS donde puedes subir tus productos y venderlos sin necesidad de tener tu propio sitio web y a la vez tener un control de tus ventas."
   },
   "wal_robot": {
     "name": "Wal Robot",

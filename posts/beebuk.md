@@ -1,6 +1,6 @@
 ---
 title: "beebuk.name"
-date: "2022-12-10"
+date: "2022-11-29"
 description: "beebuk.description"
 image: "beebuk.png"
 technologies:

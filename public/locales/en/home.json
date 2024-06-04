@@ -19,9 +19,25 @@
   "submit": "Submit",
   "footer_start": "Copyright ©",
   "footer_end": "Ariel Blas. All rights reserved",
+  "apple": {
+    "name": "Apple iPhone 15 Pro",
+    "description": "It's a custom-made website that is integrated with new technologies, functions and complex animations that match the original."
+  },
+  "ks_webplayer": {
+    "name": "Kasimu web player",
+    "description": "It's a web player where you can play any song or ad of your choice in your business."
+  },
+  "ks_controlpanel": {
+    "name": "Kasimu control panel",
+    "description": "It's a control panel that allows you to manage the users, songs, ads that you want"
+  },
   "website": {
     "name": "Website",
     "description": "My website was developed to show you my profile and the projects I have launched."
+  },
+  "unitstore": {
+    "name": "Unit Store",
+    "description": "It's a SaaS where you can upload your products and sell them without having your own website and at the same time have a sales control"
   },
   "beebuk": {
     "name": "BeeBuk",

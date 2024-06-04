@@ -25,7 +25,13 @@ const Header: React.FC<HeaderProps> = (props) => {
   return (
     <header className={classNames}>
       <NextLink href={"/"}>
-        <Image {...brand} alt="logo" className="text-black dark:text-white" />
+        <div className="flex">
+          <Image
+            {...brand}
+            alt="logo"
+            className="text-black dark:text-white cursor-pointer"
+          />
+        </div>
       </NextLink>
       <button
         type="button"

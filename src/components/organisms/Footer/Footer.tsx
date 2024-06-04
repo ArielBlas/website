@@ -17,7 +17,7 @@ const Footer: React.FC<FooterProps> = (props) => {
           <Image
             {...media}
             alt={"media-" + idx}
-            className="text-black dark:text-white cursor-pointer"
+            className="text-black dark:text-white cursor-pointer fill-black"
             key={idx}
           />
         ))}

@@ -24,8 +24,8 @@ const HeroSection: React.FC<HeroSectionProps> = (props) => {
             style={{
               background:
                 "-webkit-linear-gradient(45deg, #71b7ff, #00ff95 80%)",
-              "-webkit-background-clip": "text",
-              "-webkit-text-fill-color": "transparent",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
             }}
           >
             {description}
