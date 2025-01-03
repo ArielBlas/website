@@ -131,7 +131,10 @@ const PortfolioPage: NextPage<Props> = (props) => {
             src: Fiverr,
             width: "32px",
             height: "32px",
-            onClick: () => goToWebsite("https://fiverr.com/arielblas"),
+            onClick: () =>
+              goToWebsite(
+                "https://go.fiverr.com/visit/?bta=1079249&brand=fiverrmarketplace&landingPage=https%253A%252F%252Fwww.fiverr.com%252Farielblas%252Fdo-web-designing-and-development"
+              ),
           },
           {
             src: Github,
